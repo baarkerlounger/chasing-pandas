@@ -22,10 +22,15 @@ GEM
       data_uri (~> 0.1)
       mimemagic (~> 0.3)
       multi_json (~> 1.11)
+    matplotlib (1.0.0)
+      pycall (>= 1.0.0)
     mimemagic (0.3.2)
     multi_json (1.12.2)
     packable (1.3.9)
       backports
+    pandas (0.2.0)
+      pycall (>= 1.0.0)
+    pycall (1.0.3)
     rbczmq (1.7.9)
 
 PLATFORMS
@@ -35,6 +40,8 @@ DEPENDENCIES
   daru!
   gnuplotrb!
   iruby!
+  matplotlib!
+  pandas!
   rbczmq!
 
 BUNDLED WITH
